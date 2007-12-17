@@ -10,7 +10,6 @@ Requires(post): rpm-helper
 Requires(preun): rpm-helper
 Requires:	python-fam, sendmail-command, mailx
 BuildArch:	noarch
-BuildRoot:	%{_tmppath}/%{name}-buildroot
 
 %description
 LADS detects anomalies in login/logout.
