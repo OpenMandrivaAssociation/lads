@@ -1,7 +1,7 @@
 Summary:	Login anomaly detection system
 Name:		lads
 Version:	0.10
-Release:	%mkrel 10
+Release:	%mkrel 11
 License:	GPL
 Group:		System/Base
 URL:		http://www.lepied.com/lads/
