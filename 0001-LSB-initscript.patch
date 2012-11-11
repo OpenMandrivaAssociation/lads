@@ -1,0 +1,33 @@
+From 04f6273bb769117c2a4848854650c9e8cb62a5ed Mon Sep 17 00:00:00 2001
+From: Frederic Crozat <fcrozat@mandriva.com>
+Date: Thu, 19 Mar 2009 16:25:01 +0100
+Subject: [PATCH] LSB initscript
+
+---
+ lads.init |   10 ++++++++++
+ 1 files changed, 10 insertions(+), 0 deletions(-)
+
+diff --git a/lads.init b/lads.init
+index 3eb54d8..203ddb6 100755
+--- a/lads.init
++++ b/lads.init
+@@ -15,6 +15,16 @@
+ # processname: lads.py
+ # config: /etc/security/lads.conf
+ # pidfile: /var/run/lads.pid
++### BEGIN INIT INFO
++# Provides: lads
++# Required-Start: $syslog
++# Required-Stop: $syslog
++# Default-Start: 3 4 5
++# Short-Description: Login anomaly detection system
++# Description: LADS detects anomalies in login/logout by monitoring
++#              /var/log/wtmp.
++### END INIT INFO
++
+ 
+ # Source function library.
+ . /etc/init.d/functions
+-- 
+1.6.1.3
+
