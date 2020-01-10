@@ -21,7 +21,7 @@ LADS detects anomalies in login/logout.
 
 %prep
 %setup -q
-%apply_patches
+%autopatch -p1
 
 %install
 %makeinstall_std
