@@ -4,7 +4,7 @@ Version:	0.10
 Release:	24
 License:	GPLv2
 Group:		System/Base
-Url:		http://www.lepied.com/lads/
+Url:		https://www.lepied.com/lads/
 Source0:	http://www.lepied.com/lads/%{name}-%{version}.tar.bz2
 # (fc) 0.10-7mdv add LSB header
 Patch0:		0001-LSB-initscript.patch
